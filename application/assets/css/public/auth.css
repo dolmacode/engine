@@ -1,0 +1,50 @@
+.auth-container {
+    max-width:650px;
+    margin:15vh auto;
+}
+
+* {
+    font-family:'CEST Regular', sans-serif;
+}
+
+form {
+    display:flex;
+    flex-direction: column;
+    margin:1em auto;
+}
+
+form input {
+    padding:0.5em 1.7em;
+    border-radius:0.3em;
+    border:1px solid #999999;
+    margin:0.6em 0;
+}
+
+.ac-inline {
+    display:flex;
+    flex-direction:row;
+}
+
+.auth-header {
+    text-align:center;
+}
+
+.auth-submit {
+    padding:0.5em;
+    border:none;
+    border-radius:0.3em;
+    background:#333;
+    color:#fff;
+    transition:0.05s;
+}
+
+.auth-submit:hover {
+    background:#0066CC;
+    cursor:pointer;
+}
+
+@media screen and (max-width:625px) {
+    .ac-inline {
+        flex-direction: column;
+    }
+}

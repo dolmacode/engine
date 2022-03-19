@@ -1,0 +1,22 @@
+.totop-container {
+    width:30px;
+    height:30px;
+    background:#fff;
+    border-radius:50%;
+    box-shadow:0 0 3px #999999;
+    padding:1em;
+    position:fixed;
+    bottom:5%;
+    right:5%;
+    transition:0.1s;
+}
+
+.totop-arrow {
+    transform: scale(0.7, 0.7);
+}
+
+.totop-container:hover {
+    cursor:pointer;
+    background:#f8f8f8;
+    box-shadow:0 0 1em #999999;
+}
