@@ -1,8 +1,8 @@
 {
-    "name": "cloudexstudio/cengine3",
+    "name": "dbbgroup/engine",
     "type": "project",
-    "description": "Cloudex Engine v3.0",
-    "keywords": ["engine", "cloudex"],
+    "description": "DBB Engine v3.0",
+    "keywords": ["engine", "dbb"],
     "license": "MIT",
     "require": {
         "php": "^8.0.2",
