@@ -25,9 +25,3 @@
                 $page_display = require_once 'public/home.php';
         }
     } else $page_display = require_once 'public/home.php';
-
-    $page_title = array(
-        'auth' => 'Авторизация | ',
-        'logout' => 'Выход из аккаунта | ',
-        'admin' => 'Панель администратора | '
-    );

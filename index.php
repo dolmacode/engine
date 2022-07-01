@@ -18,7 +18,7 @@
     <?php foreach($ss as $val): ?>
     <link rel="stylesheet" type="text/css" href="application/assets/css/system/<?= $val ?>">
     <?php endforeach; ?>
-    <title><? if(!empty($_GET['q'])){echo $page_title[$_GET['q']];} ?><?= $config['com_name'] ?></title>
+    <title><?= $config['com_name'] ?></title>
 </head>
 <body>
     <div id="top"></div>
